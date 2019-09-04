@@ -1,4 +1,4 @@
-function scrollPositionIndicator(custom = {}) {
+export function scrollPositionIndicator(custom = {}) {
   let body = document.body,
     html = document.documentElement;
 

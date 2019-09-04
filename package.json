@@ -1,8 +1,8 @@
 {
   "name": "scroll-position-indicator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Displays a customizable scroll-position-indicator bar at the top of your webpage.",
-  "main": "index.js",
+  "main": "dist/scroll-position-indicator.min.js",
   "homepage": "https://gyrad.github.io/scroll-position-indicator",
   "scripts": {
     "demo": "uglifyjs src/index.js -c -m -o demo/scroll-position-indicator.min.js",
