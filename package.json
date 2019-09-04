@@ -1,0 +1,14 @@
+{
+  "name": "scroll-position-indicator",
+  "version": "1.0.0",
+  "description": "Displays a customizable scroll-position-indicator bar at the top of your webpage.",
+  "main": "index.js",
+  "keywords": [
+    "scroll indicator",
+    "scroll position",
+    "top scrollbar",
+    "scroll position indicator"
+  ],
+  "author": "Tenzing Gaychey",
+  "license": "ISC"
+}
