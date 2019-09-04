@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "Displays a customizable scroll-position-indicator bar at the top of your webpage.",
   "main": "index.js",
+  "scripts": {
+    "demo": "uglifyjs src/index.js -c -m -o demo/scroll-position-indicator.min.js",
+    "build": "uglifyjs src/index.js -c -m -o dist/scroll-position-indicator.min.js"
+  },
   "keywords": [
     "scroll indicator",
     "scroll position",
@@ -10,5 +14,9 @@
     "scroll position indicator"
   ],
   "author": "Tenzing Gaychey",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "uglify-es": "^3.3.9"
+  }
 }
