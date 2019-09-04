@@ -3,9 +3,11 @@
   "version": "1.0.0",
   "description": "Displays a customizable scroll-position-indicator bar at the top of your webpage.",
   "main": "index.js",
+  "homepage": "https://gyrad.github.io/scroll-position-indicator",
   "scripts": {
     "demo": "uglifyjs src/index.js -c -m -o demo/scroll-position-indicator.min.js",
-    "build": "uglifyjs src/index.js -c -m -o dist/scroll-position-indicator.min.js"
+    "build": "uglifyjs src/index.js -c -m -o dist/scroll-position-indicator.min.js",
+    "deploy": "gh-pages -d demo"
   },
   "keywords": [
     "scroll indicator",
@@ -17,6 +19,7 @@
   "license": "ISC",
   "dependencies": {},
   "devDependencies": {
+    "gh-pages": "^2.0.1",
     "uglify-es": "^3.3.9"
   }
 }
