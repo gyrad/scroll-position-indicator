@@ -1,4 +1,4 @@
-export function scrollPositionIndicator(custom = {}) {
+function scrollPositionIndicator(custom = {}) {
   let body = document.body,
     html = document.documentElement;
 
@@ -17,16 +17,18 @@ export function scrollPositionIndicator(custom = {}) {
   `;
 
   scrollIndicator.style = `
-  height: ${custom.height || `3px`};
+  min-height: ${custom.height || `3px`};
   background-color: ${custom.background || `#888888`};
-  position: sticky;
+  position: fixed;
+  z-index: 99999999999;
   top: 0;
   left: 0;
+  width: 100vw;
   `;
 
   scrollPosDOM.style = `
   width: 0%;
-  height: 100%;
+  min-height: ${custom.height || `3px`};
   background-color: ${custom.color || `turquoise`};
   `;
 
